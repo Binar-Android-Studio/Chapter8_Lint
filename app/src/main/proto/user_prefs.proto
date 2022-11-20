@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.example.challangechapter6";
+option java_multiple_files = true;
+
+message UserProto {
+  // filter for showing / hiding completed tasks
+  string name     = 1;
+  string username = 2;
+  string pass     = 3;
+  string pone     = 4;
+  string addres   = 5;
+  string email    = 6;
+  string aboutme  = 7;
+
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Disable the given check in this project -->
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+
+    <!-- Ignore the ObsoleteLayoutParam issue in the specified files -->
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/activity_detail.xml" />
+    </issue>
+
+    <!-- Ignore the UnusedResources issue in the specified file -->
+    <issue id="UnusedResources">
+        <ignore path="res/values/colors.xml" />
+        <ignore path="res/values/dimens.xml" />
+        <ignore path="res/values/strings.xml" />
+        <ignore path="res/values/styles.xml" />
+    </issue>
+
+    <!-- Ignore the InefficientWeight issue in the specified file -->
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/activity_login.xml" />
+        <ignore path="res/layout/activity_profile.xml" />
+        <ignore path="res/layout/activity_register.xml" />
+    </issue>
+
+    <!-- Ignore the ContentDescription issue in the specified file -->
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_detail.xml" />
+        <ignore path="res/layout/activity_favorite.xml" />
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/activity_splashscreen.xml" />
+        <ignore path="res/layout/activity_profile.xml" />
+        <ignore path="res/layout/list_item.xml" />
+    </issue>
+
+    <!-- Change the severity of hardcoded strings to "error" -->
+    <issue id="HardcodedText" severity="ignore" />
+
+    <issue id="RemoveWorkManagerInitializer" severity="ignore" />
+
+</lint>
